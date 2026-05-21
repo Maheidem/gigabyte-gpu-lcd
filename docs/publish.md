@@ -1,9 +1,12 @@
-# Publishing Later
+# Publishing Checklist
 
-GitHub authentication is not configured in this environment yet, so this repo is
-prepared as a local git repository first.
+The repository is published at:
 
-After authenticating GitHub CLI:
+```text
+https://github.com/Maheidem/gigabyte-gpu-lcd
+```
+
+For future machines or forks, the initial publish flow is:
 
 ```bash
 gh auth login
@@ -11,7 +14,8 @@ cd ~/gigabyte-gpu-lcd
 gh repo create gigabyte-gpu-lcd --public --source=. --remote=origin --push
 ```
 
-If a remote repository already exists:
+If the remote repository already exists and a local checkout only needs to be
+connected:
 
 ```bash
 cd ~/gigabyte-gpu-lcd
@@ -29,4 +33,3 @@ git ls-files
 
 Do not add extracted Gigabyte binaries, firmware blobs, personal logs, or local
 machine-specific scratch files.
-

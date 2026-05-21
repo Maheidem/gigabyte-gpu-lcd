@@ -19,7 +19,7 @@ exact white text on a black background.
 - GIF/RLE animation uploads: working.
 - Vendor metric overlay clearing: working.
 - Vendor text slot: mapped, but not recommended for exact output.
-- GitHub remote: not configured in this local copy yet.
+- Published repository: <https://github.com/Maheidem/gigabyte-gpu-lcd>.
 
 No Gigabyte binaries, assets, or firmware are included.
 
@@ -122,5 +122,4 @@ Use `--preview` and `--payload-out` to choose output paths.
 - [Protocol](docs/protocol.md)
 - [Hardware notes](docs/hardware-notes.md)
 - [Lessons learned](docs/lessons-learned.md)
-- [Publishing later](docs/publish.md)
-
+- [Publishing checklist](docs/publish.md)
